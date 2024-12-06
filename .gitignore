@@ -1,0 +1,6 @@
+# Ignorar todo el contenido de la carpeta 'data'
+data/*
+
+config.json
+# Excepción: No ignorar los archivos .csv
+!data/*.csv
