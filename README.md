@@ -1,9 +1,10 @@
 # Mapa interactivo arbolado urbano Las Condes
 
-![[Ubicación de árboles con altura de 20 metros o más]](https://github.com/user-attachments/assets/470f6de4-19b7-4ecc-adec-a792952051e6)
-Captura de pantalla del mapa interactivo, con la ubicación de los árboles con altura igual o mayor a 20 metros
+![Captura de pantalla 2024-12-06 103206](https://github.com/user-attachments/assets/5254fe0b-f27b-4994-b5b9-68bdfe947d96)
+*Captura de pantalla del mapa interactivo, con la ubicación de los árboles con altura igual o mayor a 20 metros*
 
-V1. 04-12-2024.  
+**V1. 04-12-2024.**  
+
 El proyecto consiste en un análisis descriptivo del arbolado urbano (calles y avenidas) de la comuna de Las Condes, Región Metropolitana, Chile, con la generación de un mapa interactivo.  
 Los datos provienen de un archivo _shapefile_ obtenido del geoportal disponible en https://arcgismlc.lascondes.cl/portal/apps/mapviewer/index.html?webmap=9cd26fb71ea1448290450a9889467bc8.  
 El _shapefile_ corresponde a la ubicación en coordenadas UTM Datum WGS84 huso 19S, de cada árbol en los ejes viales comuna, cada registro cuenta con datos descriptivos del ejemplar, como altura, diametro, número de ramas y estado general, entre otros. Sin embargo, no cuenta con la dirección del árbol.  
