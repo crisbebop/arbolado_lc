@@ -11,7 +11,9 @@ El _shapefile_ corresponde a la ubicación en coordenadas UTM Datum WGS84 huso 1
 
 Se hizo una `Geocodificación` para agregar la dirección, en primera instancia se probó con la librería `Geopy`, que utiliza varios proveedores como OSM, GSM o BING, sin embargo, tiene un límite de 1000 request por día, por lo cual fue insuficiente para el proyecto. Por esta razón, se decidió emplear, la API de GoogleMaps dispible en GCP que cuenta con 40.000 request mensuales + 300 créditos para uso de cuentas nuevas, esto permite un total de 100.000 request mnesuales.  
 
-El proceso tomó alrededor de 5 horas y 1927 árboles no pudieron ser geocodificados (dirección no disponible).
+El proceso tomó alrededor de 5 horas y 1927 árboles no pudieron ser geocodificados (dirección no disponible).  
+
+**El mapa web interactivo fue desplegado con Github Pages**: https://crisbebop.github.io/arbolado_lc/
 
 Información descriptiva encontrada:
 * Total de árboles en calles y avenidas: 90983
