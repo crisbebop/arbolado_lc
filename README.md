@@ -13,7 +13,7 @@ Se hizo una `Geocodificación` para agregar la dirección, en primera instancia 
 
 El proceso tomó alrededor de 5 horas y 1927 árboles no pudieron ser geocodificados (dirección no disponible).  
 
-**El mapa web interactivo fue desplegado con Github Pages**: https://crisbebop.github.io/arbolado_lc/
+** Se elaboró un mapa web interactivo con los árboles de altura >= 20 metros, desplegado con Github Pages**: https://crisbebop.github.io/arbolado_lc/
 
 Información descriptiva encontrada:
 * Total de árboles en calles y avenidas: 90983
