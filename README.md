@@ -9,7 +9,7 @@ El proyecto consiste en un análisis descriptivo del arbolado urbano (calles y a
 Los datos provienen de un archivo _shapefile_ obtenido del geoportal disponible en https://arcgismlc.lascondes.cl/portal/apps/mapviewer/index.html?webmap=9cd26fb71ea1448290450a9889467bc8.  
 El _shapefile_ corresponde a la ubicación en coordenadas UTM Datum WGS84 huso 19S, de cada árbol en los ejes viales comuna, cada registro cuenta con datos descriptivos del ejemplar, como altura, diametro, número de ramas y estado general, entre otros. Sin embargo, no cuenta con la dirección del árbol.  
 
-Se hizo una `Geocodificación` para agregar la dirección, en primera instancia se probó con la librería `Geopy`, que utiliza varios proveedores como OSM, GSM o BING, sin embargo, tiene un límite de 1000 request por día, por lo cual fue insuficiente para el proyecto. Por esta razón, se decidió emplear, la API de GoogleMaps dispible en GCP que cuenta con 40.000 request mensuales + 300 créditos para uso de cuentas nuevas, esto permite un total de 100.000 request mnesuales.  
+Se hizo una `Geocodificación` para agregar la dirección, en primera instancia se probó con la librería `Geopy`, que utiliza varios proveedores como OSM, GSM o BING, pero tiene un límite de 1000 request por día, lo cual es insufciente para el proyecto, dado que se analiza un total de 90.000 árboles. Dado lo anterior, la solución encontrada fue emplear la API de GoogleMaps dispible en GCP, la que cuenta con 40.000 request mensuales + 300 créditos para uso de cuentas nuevas, esto perrmitió realizar un total de 100.000 requests. 
 
 El proceso tomó alrededor de 5 horas y 1927 árboles no pudieron ser geocodificados (dirección no disponible).  
 
